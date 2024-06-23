@@ -1,0 +1,59 @@
+@import "fonts.css";
+
+:root {
+    /* Color */
+    --brand-color:hsla(132, 98%, 52%, 1);
+    --light-color:hsla(0, 0%, 100%, 1);
+    --dark:hsla(0, 0%, 0%, 1);
+    --dim:hsla(0, 0%, 9%, 1);
+
+    --bg-body: linear-gradient(to bottom right,
+                    var(--brand-color),
+                    var(--light-color),
+                    var(--dark),
+                    var(--dim)
+    );
+
+        /* Fonts  */
+    --font-headers: "Montserrat", sans-serif;
+    --font-content: "Open Sans", sans-serif;
+}
+
+/* Font */
+.font-header {
+    font-family: var(--font-headers), serif;
+}
+.font-content {
+    font-family: var(--font-content), serif;
+}
+
+/* Background */
+.bg-brand {
+    background-color: var(--brand-color);
+}
+.bg-light {
+    background-color: var(--light-color);
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+.bg-dim {
+    background-color: var(--dim);
+}
+.bg-body {
+    background: var(--bg-body);
+}
+
+/* Text */
+.txt-brand {
+    color: var(--brand-color);
+}
+.txt-light {
+    color: var(--light-color);
+}
+.txt-dark {
+    color: var(--dark);
+}
+.txt-dim {
+    color: var(--dim);
+}
