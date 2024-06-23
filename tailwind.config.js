@@ -33,6 +33,9 @@ module.exports = {
                 sans: ['Open Sans', 'sans-serif'],
                 montserrat: ['Montserrat', 'sans-serif'],
             },
+            screens: {
+                'vsm': '380px',
+            },
         },
     },
     plugins: [],

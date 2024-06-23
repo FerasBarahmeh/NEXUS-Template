@@ -767,3 +767,19 @@ video {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
+
+@media not all and (min-width: 640px){
+  .max-sm\:hidden{
+    display: none;
+  }
+}
+
+@media (min-width: 380px){
+  .vsm\:w-\[400px\]{
+    width: 400px;
+  }
+
+  .vsm\:w-full{
+    width: 100%;
+  }
+}
