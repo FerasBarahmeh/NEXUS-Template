@@ -36,6 +36,10 @@ module.exports = {
             screens: {
                 'vsm': '380px',
             },
+
+            accentColor: {
+                brand: colors.brand,
+            },
         },
     },
     plugins: [],
